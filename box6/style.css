@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins/Poppins/PoppinsLatin-Medium.otf');
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    padding: 0 18px;
+    
+    border-bottom: 1px solid rgba(100,100,100, 0.2);
+}
+.headerLeft{
+    flex: 1;
+}
+.headerRight{
+    flex: 2;
+}
+.levelsBuy{
+    width: 100%;
+    padding:10px 5%;
+    display: flex;
+}
+.levelsBuy img{
+    margin:  0 5px;
+}
+.contentMobile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding: 20px 15px;
+}
+.User{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: -0.75px;
+    display: block;
+    
+}
+.UserDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contentMobile1 {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.inputTag{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    padding: 11px 10px 11px 16px;
+    height: 46px;
+    width: 263px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.inputTag2{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0 10px 60px 16px;
+    box-sizing: border-box;
+    height: 115px;
+    width: 345px;
+    left: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.city{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.city input , .code{
+    box-sizing: border-box;
+    flex-direction: row;
+    display: flex;
+    padding: 11px 10px 11px 16px;
+    align-items: center;
+    width: 162px;
+    gap: 10px;
+    height: 46px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.city img{
+    position: absolute;
+    left: 300px;
+    top: -9px;
+    cursor: pointer;
+}
+.cheek{
+    display: flex;
+}
+.Continue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    width: 345px;
+    height: 48px;
+    background: #219653;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.back{
+    width: 345px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 16px;
+    opacity: 0.9;
+
+}
+
+.cartShop{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 36px;
+    font-size: 24px;
+    letter-spacing: -0.75px;
+    color: #000000;
+    padding-left: 18px;
+    display: none;
+}
+.boxRight{
+    width: 505px;
+    height: 595px;
+    background: #FDFBF8;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 24px;
+    padding-top: 24px;
+    display: none;
+}
+.yourCart{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+    letter-spacing: 0.75px;
+}
+.laptop{
+    display: flex;
+    height: 190px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.laptopImg{
+   flex: 2;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.plass{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    justify-content: center;
+}
+.name , .color{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+}
+.price{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.plass div{
+    width: 37px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    width: 37px;
+    height: 37px;
+    opacity: 1;
+}
+.totalBox{
+    display: flex;
+    line-height: 24px;
+    margin-top: 15px;
+}
+.nameTotal , .priceTotal{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.nameTotal p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.priceTotal p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.priceTotal p span{
+    font-size: 12px;
+    opacity: 0.5;
+}
+.nameTotal #totalName ,#totalPrice{
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 20px;
+}
+.sliderBuy{
+    display: none;
+}
+.footer{
+    width: 240px;
+    height: 240px;
+    display: none;
+}
+.number1 , .number2{
+    padding-left: 7px;
+ }
+ 
+ input[type=number] {
+     -moz-appearance:textfield;
+ }
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+ }
+ .Number .number1 , .Number .number2{
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+ }
+ .linkContinue , .linkBack{
+    text-decoration: none;
+ }
+
+@media only screen and (max-width : 480px){
+
+}
+@media only screen and (min-width : 480.1px){
+    .levelsBuy{
+        display: none;
+    }
+}
+@media only screen and (min-width : 768px){
+  .headerLeft{
+    display: none;
+  }
+  .footer{
+    display: block;
+  }
+  .UserDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputTag{
+    width: 50%;
+}
+.contentMobile{
+    flex-direction: row;
+}
+.contentMobile1{
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+.Continue , .back{
+    margin: 10px auto;
+}
+.inputTag2{
+    width: 100%;
+    height: 46px;
+    padding: 11px 10px 11px 16px;
+}
+.city input{
+    width: 50%;
+}
+.code{
+    width: 100%;
+}
+.boxRight{
+    display: block;
+}
+.cartShop{
+    display: block;
+}
+.city img{
+    display: none;
+}
+}
+@media only screen and (min-width : 1280px){
+  .contentMobile{
+    gap: 8%;
+  }
+}

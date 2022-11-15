@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="headerLeft">
+                <img src="image/Vector (8).png" alt="">
+            </div>
+            <div class="headerRight">
+                <img src="image/BlackFRI (1).png" alt="">
+            </div>
+        </div>
+        <div class="levelsBuy">
+            <div>
+                <img src="image/Frame 185.png" alt="">
+            </div>
+            <div>
+                <img src="image/Frame 186.png" alt="">
+            </div>
+            <div>
+                <img src="image/Frame 187.png" alt="">
+            </div>
+            <div>
+                <img src="image/Frame 188.png" alt="">
+            </div>
+        </div>
+        <div class="contentMobile">
+            <div class="contentMobile1">
+                <p class="User">User Information</p>
+                <div class="UserDiv">
+                    <input type="text" placeholder="First name" class="inputTag">
+                    <input type="text" placeholder="Last name" class="inputTag">
+                </div>
+                <div class="UserDiv">
+                    <input type="text" placeholder="Email address" class="inputTag">
+                    <input type="text" placeholder="Phone number" class="inputTag">
+                </div>
+                <img src="image/Frame 259.svg" alt="" class="sliderBuy">
+                <p class="User" id="demo">Shipping Inforamtion</p>
+                <input type="text" placeholder="Shipping address" class="inputTag2">
+                <div class="city">
+                    <input type="text" placeholder="city">
+                    <input type="text" placeholder="State/Province">
+                    <img src="image/Frame 252.svg" alt="" class="clickBuy" onclick="add();">
+                </div>
+                <input type="text" placeholder="Zip/Postal code" class="code">
+               <div class="cheek">
+                <input type="checkbox"> <span>I want to have an account with this information</span>
+               </div>
+               <a href="../box7/index.html" class="linkContinue"><button class="Continue">Continue</button></a>
+               <a href="../box5/index.html" class="linkBack"><button class="back"> &#11013; Back</button></a>
+               <!-- <button class="Continue">Continue</button> -->
+               <!-- <button class="back"> &#11013; Back</button> -->
+               <img src="image/Group 80.png" alt="" class="footer">
+            </div>
+            <div class="contentMobile2">
+                <p class="cartShop">Shopping Cart</p> 
+                <div class="boxRight">
+                    <p class="yourCart">YOUR CART</p>
+                    <div class="laptop">
+                        <div class="laptopImg">
+                            <div class="imageLaptop">
+                                <img src="image/97 (2).png" alt="">
+                            </div>
+                            <div class="nameLaptop">
+                                <p class="name">Surface Book 3 - F -E 15.6’</p>
+                                <p class="color">Black</p>
+                                <p class="price">$450.00</p>
+                            </div>
+                        </div>
+                        <div class="plass">
+                            <div class="minus">
+                                <img src="image/Frame 98.png" alt="" class="minusLaptop" onclick="minus()">
+                            </div>
+                            <div class="Number">
+                                <!-- <p class="numberLaptop">1</p> -->
+                                <input type="number" value="1" class="number1">
+                            </div>
+                            <div class="plus">
+                                <img src="image/Frame 172.png" alt="" class="plusLaptop" onclick="plus()">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="laptop">
+                        <div class="laptopImg">
+                            <div class="imageLaptop">
+                                <img src="image/image 74 (1).png" alt="">
+                            </div>
+                            <div class="nameLaptop">
+                                <p class="name">Razer Kraken X Ultralight
+                                    Gaming Headset</p>
+                                <p class="color">blue</p>
+                                <p class="price">$150.00</p>
+                            </div>
+                        </div>
+                        <div class="plass">
+                            <div class="minus">
+                                <img src="image/Frame 98.png" alt="" class="minusAir"  onclick="minus2()">
+                            </div>
+                            <div class="Number">
+                                <!-- <p class="numbrAir">2</p> -->
+                                <input type="number" value="2" class="number2">
+                            </div>
+                            <div class="plus">
+                                <img src="image/Frame 172.png" alt="" class="plusAir" onclick="plus2()">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalBox">
+                        <div class="nameTotal">
+                            <p>Cart items:</p>
+                            <p>Shipping:</p>
+                            <p>Discount:</p>
+                            <p id="totalName">Total:</p>
+                        </div>
+                        <div class="priceTotal">
+                            <p class="numberBox">2</p>
+                            <p>$24 <span>Express</span></p>
+                            <p>-$45.00</p>
+                            <p id="totalPrice">$555.00</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="contentLaptop">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

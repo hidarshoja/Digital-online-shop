@@ -1,0 +1,501 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('font/Poppins/Poppins/PoppinsLatin-Medium.otf');
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 500px;
+}
+/* اسلایدر هدر */
+.sliderHeader{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(216, 213, 213);
+    position: relative;
+    display: none;
+}
+.sliderHeader button{
+    top: 10px;
+    left: 10px;
+    padding: 1px 20px;
+    background-color: brown;
+    color: white;
+    font-size: 28px;
+    border-radius: 25px;
+    position: absolute;
+    border: none;
+    padding-bottom: 7px;
+    cursor: pointer;
+    
+}
+.sliderUlHeader{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+
+.sliderUlHeader ul li{
+    list-style: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.sliderUlHeader ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #000000;
+}
+.sliderUlHeader ul li a:hover{
+    color: red;
+}
+/* هدر */
+.header{
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.2);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.header1{
+    flex: 1;
+}
+.header2{
+    flex: 5;
+}
+.header3{
+    flex: 1;
+}
+
+.header2 ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+.header2 ul li a{
+  text-decoration: none;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.75px;
+color: #000000;
+}
+.header2 ul li a:hover{
+    color: red;
+}
+.header2 img{
+    display: none;
+}
+.HeaderOneLogo2{
+    display: none;
+}
+.headerThreeLogo2 , .headerThreeLogo3{
+    display: none;
+}
+.content{
+    display: flex;
+   min-height: 500px;
+}
+.sideBar{
+    display: none;
+}
+.content1{
+    flex: 70%;
+    min-height: 900px;
+    overflow: hidden;
+}
+.logoContent1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 18px 5%;
+    height: 45px;
+}
+.ulContent1 ul li {
+    list-style: none;
+    display: inline-block;
+}
+.ulContent1 ul li a{
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-decoration: none;
+    font-style: normal;
+}
+
+.ulContent1 ul li a:hover{
+    color: red;
+}
+.buttonContent1 img{
+    padding: 0 10px;
+}
+
+.oneContent1{
+    width: 42px;
+}
+.laptops{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.laptop{
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.3);;
+}
+.imgLaptop img{
+    width: 165px;
+    height: 130px;
+}
+.nameLaptop{
+    font-family: 'Poppins';
+    font-style: normal;
+    letter-spacing: 0.75px;
+    line-height: 25px;
+}
+.name{
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.price{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #219653;
+}
+.priceDel{
+    font-size: 14px;
+    font-weight: 400;
+    color: #929292;
+}
+.slide1{
+    width: 264px;
+    height: 268px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slide1 p ,.slide4 p ,.slide5 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -39px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.slide1 ul li , .slide4 ul li , .slide5 ul li{
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    padding: 5px 0;
+}
+.slide2{
+    width: 264px;
+    height: 140px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.slide2 p , .slide3 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: -90px;
+}
+.colors{
+    width: 170px;
+    height: 58px;
+    margin-left: 50px;
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.colors div{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    margin:2px 4px;
+}
+.green{
+    background-color: #43C250;;
+}
+.red{
+    background-color: #F21212;
+}
+.blueSky{
+    background: #88E5E8;
+}
+.white{
+    background: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.66);
+}
+.black{
+    background: #393737;
+    border: 1px solid #000000;  
+}
+.lightGreen{
+    background: #28F1B5;
+    border: 1px solid rgba(0, 0, 0, 0.66);
+}
+.gray{
+    background: #696969;
+}
+.color8{
+    background: #F8C461;
+}
+.color9{
+    background: #476FB4;
+   border: 1px solid rgba(0, 0, 0, 0.66);
+}
+.color10{
+    background: #CAE425;
+}
+.slide3{
+    width: 264px;
+    height: 159px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.price-input{
+    width: 80%;
+    display: flex;
+    margin-left: 35px;
+}
+.price-input .field input{
+    height: 45px;
+    width: 70%;
+    display: flex;
+    outline: none;
+    text-align: center;
+    margin-left: 15px;
+    background: #FFFFFF;
+    border: 1px solid #323232;
+    border-radius: 8px;
+    -moz-appearance: textfield;
+    
+} 
+.field input[type="number"]::-webkit-outer-spin-button,
+.field input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.sliderPrice{
+    width: 70%;
+    height: 5px;
+    background-color: #e7e7e7;
+    border-radius: 3px;
+    margin: 50px auto;
+    position: relative;
+}
+.sliderPrice .progress{
+    height: 5px;
+    background: #219653;
+    border-radius: 3px;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+}
+.range-input{
+    position: relative;
+}
+.range-input input{
+    position: absolute;
+    top: 0px;
+    height: 5px;
+   width: 100%;
+   right: 2px;
+   background: none;
+   pointer-events: none;
+   -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    pointer-events: auto;
+    background: #c3c0c0;
+    -webkit-appearance: none;
+   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15), inset 1px 1px 1px rgba(0, 0, 0, 0.03);
+}
+input[type="range"]::-moz-range-thumb{
+    height: 17px;
+    width: 17px;
+    border: none;
+    border-radius: 50%;
+    pointer-events: auto;
+    background: #c3c0c0;
+    -moz-appearance: none;
+   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15), inset 1px 1px 1px rgba(0, 0, 0, 0.03);
+}
+
+.slide4{
+    width: 264px;
+    height: 200px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slide4 ul{
+    margin-left: -80px;
+}
+
+.slide5{
+    width: 264px;
+    height: 157px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slide5 p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    color: #000000;
+}
+.slide5 ul{
+    margin-left: -70px;
+}
+
+
+    
+
+
+
+
+/* برای گوشی های موبایل */
+@media only screen and (max-width: 480px) {
+    .header{
+        height: 50px;
+    }
+    .header2 ul{
+        display: none;
+    }
+    .header2{
+        flex: 2;
+    }
+    .header2 img{
+        display: inline-block;
+    }
+}
+
+/* برای تبلت ها در حالت عمودی و گوشی های موبایل کمی بزرگتر */
+@media only screen and  (min-width: 480.1px){
+    .header{
+        height: 50px;
+    }
+    .header2 ul{
+        display: none;
+    }
+    .header2{
+        flex: 2;
+    }
+    .header2 img{
+        display: inline-block;
+    }
+}
+
+/* برای لپ تاپ ها و تبلت ها بصورت افقی */
+@media only screen and (min-width: 768px){
+    .header2 img{
+        display: none;
+    }
+    .header2 ul{
+        display: inline-block;
+    }
+    .header2{
+        flex: 4;
+    }
+    .HeaderOneLogo1{
+        display: none;
+    }
+    .HeaderOneLogo2{
+        display: inline-block;
+    }
+    .header{
+        height: 100px;
+    }
+    .headerThreeLogo2 , .headerThreeLogo3{
+        display: inline-block;
+    }
+    .header3 img{
+        padding: 0 5px;
+    }
+    .sideBar{
+        display: flex;
+        flex: 30%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .laptops {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+      } 
+      .laptop{
+        margin: 10px;
+      }
+
+}
+
+/* برای صفحه نمایش های بزرگ مثه کامپیوتر و بالاتر */
+@media only screen and (min-width: 1280px) {
+    .header2 ul li{
+        margin:5px 20px;
+    }
+    .header2 ul li a{
+        font-size: 18px;
+    }
+    .header2{
+        flex: 2;
+    }
+}
